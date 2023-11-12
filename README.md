@@ -12,14 +12,14 @@ Connects to remote host via SSH (take a note that it uses password login, not SS
 ### main.py
 Responsible for creating web endpoints used for displaying HTML pages for more convenient data entry  
 
-##Prerequisites
-You need to create environment variables: DB_HOST, DB_USER, DB_PORT, DB_PASS, DB_NAME
+## Prerequisites
+You'll need to create environment variables: DB_HOST, DB_USER, DB_PORT, DB_PASS, DB_NAME
 Secondly you'll need to install all dependencies listed in requiremets.txt
 '''
 pip install -r requirements.txt
 '''
 
-##How to run app
+## How to run app
 Simply type
 '''
 uvicorn main:app --reload
