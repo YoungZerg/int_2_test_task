@@ -1,13 +1,15 @@
 # int_2_test_task
 
-##Project files purpose
-###config.py
+## Project files purpose
+
+### config.py
 Contains important consts responsible for  PostgreSQL database connection.
-###db_connector.py
+
+### db_connector.py
 Connects to the database using credentials provided in config.py and writes parsed data
-###scanner.py
+### scanner.py
 Connects to remote host via SSH (take a note that it uses password login, not SSH keys) and parses OS version and name, kernel and architecture.
-###main.py
+### main.py
 Responsible for creating web endpoints used for displaying HTML pages for more convenient data entry  
 
 ##Prerequisites
