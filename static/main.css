@@ -1,0 +1,29 @@
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+form{
+    margin: 0 auto;
+    width: 250px;
+}
+
+input{
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+input[type=submit]{
+    background-color: #0a0a23;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}

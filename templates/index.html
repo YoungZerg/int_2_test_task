@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ultimate SSH connector</title>
+    <link href="{{url_for('static', path='/main.css')}}" rel="stylesheet">
+    <meta charset="utf-8" />
+</head>
+<body>
+    <h1>Enter credentinals for connection</h1>
+    <form method="post">
+        <p>
+            Ip address:<br>
+            <input name="ip_address" />
+        </p>
+        <p>
+            Port:<br>
+            <input name="port" type="number" />
+        </p>
+        <p>
+            Login:<br>
+            <input name="login" />
+        </p>
+        <p>
+            Password:<br>
+            <input name="passwd" type="password" />
+        </p>
+        <input type="submit" value="Send" />
+    </form>
+</body>
+</html>
