@@ -15,16 +15,16 @@ Responsible for creating web endpoints used for displaying HTML pages for more c
 ## Prerequisites
 You'll need to create environment variables: DB_HOST, DB_USER, DB_PORT, DB_PASS, DB_NAME
 Secondly you'll need to install all dependencies listed in requiremets.txt
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 ## How to run app
 Simply type
-'''
+```
 uvicorn main:app --reload
-'''
+```
 And go to localhst webpage in your browser
-'''
+```
 http://127.0.0.1:8000/
-'''
+```
