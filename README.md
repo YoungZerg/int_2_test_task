@@ -18,6 +18,7 @@ Secondly you'll need to install all dependencies listed in requiremets.txt
 ```
 pip install -r requirements.txt
 ```
+And thirdly uncomment piece of code in db_connector.py to create needed table (or you can do it by yourselves)
 
 ## How to run app
 Simply type
