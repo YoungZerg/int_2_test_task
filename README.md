@@ -13,7 +13,14 @@ Connects to remote host via SSH (take a note that it uses password login, not SS
 Responsible for creating web endpoints used for displaying HTML pages for more convenient data entry  
 
 ## Prerequisites
-You'll need to create environment variables: DB_HOST, DB_USER, DB_PORT, DB_PASS, DB_NAME
+You'll need to create environment variables: 
+```
+DB_HOST
+DB_USER
+DB_PORT
+DB_PASS
+DB_NAME
+```
 Secondly you'll need to install all dependencies listed in requiremets.txt
 ```
 pip install -r requirements.txt
